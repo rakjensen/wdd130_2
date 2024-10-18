@@ -1,5 +1,3 @@
-/* rafting.css */
-/* Defining CSS variables in the :root pseudo-class based on color scheme */
 :root {
     --primary-color: #1a73e8;  /* Deep blue */
     --secondary-color: #34a853; /* Green */
