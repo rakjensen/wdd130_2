@@ -1,0 +1,56 @@
+/* rafting.css */
+/* Defining CSS variables in the :root pseudo-class based on color scheme */
+:root {
+    --primary-color: #1a73e8;  /* Deep blue */
+    --secondary-color: #34a853; /* Green */
+    --accent-color: #fbbc05;    /* Yellow */
+    --background-color: #ffffff; /* White */
+    --text-color: #333333;      /* Dark gray */
+    --heading-color: #1a73e8;   /* Same as primary color */
+    --paragraph-color: #555555; /* Lighter gray for readability */
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+    color: var(--paragraph-color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Remove underline from social media image links */
+a img {
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-media a img {
+    text-decoration: none; /* Remove underline from image links */
+    width: 40px; /* Adjust size of social media icons */
+    height: auto;
+}
